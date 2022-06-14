@@ -15,4 +15,10 @@ body {
   margin: auto;
 }
 
+.card {
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 /*# sourceMappingURL=style.css.map */

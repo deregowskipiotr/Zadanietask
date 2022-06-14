@@ -30,10 +30,14 @@
   },
   "homepage": "https://github.com/deregowskipiotr/Zadanietask#readme",
   "devDependencies": {
+    "@hint/hint-no-inline-styles": "^1.0.11",
     "browser-sync": "^2.27.10",
     "mkdirp": "^1.0.4",
     "npm-run-all": "^4.1.5",
     "onchange": "^7.1.0",
     "sass": "^1.52.3"
+  },
+  "dependencies": {
+    "postcss": "^8.4.14"
   }
 }
