@@ -17,15 +17,6 @@ body {
     margin: auto;
 }
 
-.row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .cards {
-    flex-direction: column;
-    margin: auto;
-}
-.card {
-    max-width: 100px;
+    background-color: bisque;
 }
