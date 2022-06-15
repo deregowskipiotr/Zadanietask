@@ -39,5 +39,8 @@
     "postcss": "^8.2.6",
     "postcss-cli": "^8.3.1",
     "sass": "^1.52.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
   }
 }
