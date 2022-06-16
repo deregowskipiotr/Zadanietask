@@ -12,7 +12,7 @@ body {
     
 }
 .container {
-    max-width: 1200px;
+    max-width: 1140px;
     padding: 0 20px ;
     margin: auto;
 }
@@ -21,4 +21,28 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+.card-body {
+    background-color: aqua;
+}
+
+/*footer*/
+
+.foot {
+    margin: 48px 0;
+    text-align: center;
+}
+
+.foot ul {
+    list-style-type: none;
+}
+
+.foot li {
+    display: inline; 
+}
+
+.foot a {
+    font-size: 0px;
 }
