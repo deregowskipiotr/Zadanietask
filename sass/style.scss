@@ -17,6 +17,19 @@ body {
     margin: auto;
 }
 
+/*nav*/
+.container-fluid {
+    background-color: silver;
+    
+}
+
+
+
+
+
+
+
+/*Cards*/
 .row {
     display: flex;
     justify-content: center;
@@ -24,25 +37,8 @@ body {
 
 }
 
-.card-body {
-    background-color: aqua;
-}
-
-/*footer*/
-
-.foot {
-    margin: 48px 0;
-    text-align: center;
-}
-
-.foot ul {
-    list-style-type: none;
-}
-
-.foot li {
-    display: inline; 
-}
-
-.foot a {
-    font-size: 0px;
+.card {
+    margin: 10px;
+    padding: 30px 10px ;
+    background-color: silver;
 }
