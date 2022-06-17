@@ -12,8 +12,8 @@ body {
     
 }
 .container {
-    max-width: 1140px;
-    padding: 0 20px ;
+    max-width: 1200px;
+    padding: 10px 10px ;
     margin: auto;
 }
 
@@ -24,6 +24,9 @@ body {
 
 .cards {
     background-color: beige;
+}
+.cards-title {
+    text-align: center;
 }
 .card {
     margin: 20px 30px;
@@ -40,6 +43,43 @@ body {
     font-weight: bold;
     font-style: italic;
 }
-h2 {
-    text-align: left;
+
+.footer {
+    background-color: silver;
+}
+
+
+/*Form*/
+
+.contact {
+    background-color: lightblue;
+    padding: 96px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.row-contact {
+    display:flex;
+
+}
+.contact-1 {
+    background-color: lightblue;
+    border: none;
+    border-bottom: 2px ;
+}
+
+
+/*Footer*/
+
+.foot {
+    background-color: silver;
+}
+.row {
+    display: flex;
+}
+
+.row ul li {
+    display: inline;
+    margin-inline-start: 30px;
+    
 }
