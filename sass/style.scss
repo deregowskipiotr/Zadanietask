@@ -62,11 +62,6 @@ body {
     display:flex;
 
 }
-.contact-1 {
-    background-color: lightblue;
-    border: none;
-    border-bottom: 2px ;
-}
 
 
 /*Footer*/
@@ -74,12 +69,27 @@ body {
 .foot {
     background-color: silver;
 }
-.row {
-    display: flex;
+
+.foot ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 25px 0;
+    
 }
 
-.row ul li {
+.foot li {
     display: inline;
-    margin-inline-start: 30px;
+    flex-wrap: nowrap;
+    font-size: 0px;
+    
+}
+.foot ul i {
+    padding-top: 10px;
+    font-size: 36px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30%;
+    background-color: blue;
+    color:white;
     
 }
